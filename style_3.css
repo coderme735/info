@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title{
+  font-weight:900;
+}
+
+.main-title{
+  width: 100%;
+  padding: 20px;
+  background-color: grey;
+}
+
+.leftTitle{
+  float: left;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 40px 20px;
+  background-color: #eee;
+}
+
+.rightContent{
+  float: left;
+}
+
+
+.item{
+  border-bottom: 1px solid #999;
+}
